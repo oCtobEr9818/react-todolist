@@ -3,8 +3,9 @@ body {
 }
 
 .app {
-  width: 100%;
+  width: 70%;
   padding: 20px;
+  margin: auto;
   border: 1px solid #000;
   box-sizing: border-box;
 }
@@ -43,4 +44,10 @@ input {
   background-color: rgb(212, 101, 101);
   color: #fff;
   padding: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .app {
+    width: 100%;
+  }
 }
