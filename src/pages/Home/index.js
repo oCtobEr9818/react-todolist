@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 
 import Edit from "./components/Edit";
 import List from "./components/List";
+// import footer from "./components/footer";
 import "./index.css";
 
 const Home = () => {

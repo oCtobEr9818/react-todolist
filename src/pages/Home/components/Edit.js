@@ -23,12 +23,17 @@ const Edit = ({ add, submitStatus }) => {
 
     return (
         <div>
-            <h1>備忘錄</h1>
-            <p>記事：</p>
-            <input type="text" value={note} onChange={noteChange} />
-            <button className="add" onClick={addItem}>
-                新增
-            </button>
+            <section>
+                <h1>備忘錄</h1>
+                <p>記事：</p>
+                <input type="text" value={note} onChange={noteChange} />
+                <button className="add" onClick={addItem}>新增</button>
+            </section>
+
+            <div className="footer">
+                &copy; 2022/04/18 by Anddy
+            </div>
+
         </div>
     );
 };
