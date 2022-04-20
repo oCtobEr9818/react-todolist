@@ -31,7 +31,7 @@ const Edit = ({ add, submitStatus }) => {
             </section>
 
             <div className="footer">
-                &copy; 2022/04/18 by Anddy
+                &copy; 2022/04/18 by Anddy.
             </div>
 
         </div>
